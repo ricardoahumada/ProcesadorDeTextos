@@ -1,4 +1,4 @@
-package com.bit.controller;
+package com.bit.servicios;
 
 import com.bit.models.Texto;
 import com.bit.persistence.TextosEnMemoria;

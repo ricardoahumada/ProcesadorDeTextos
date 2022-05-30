@@ -1,6 +1,6 @@
 package com.bit;
 
-import com.bit.controller.GestorTextos;
+import com.bit.servicios.GestorTextos;
 import com.bit.models.Texto;
 
 import java.util.List;
