@@ -11,6 +11,7 @@ public class GestorTextos {
         return textos;
     }
 
+    //Mayusculas
     public static void pasarAMayusculasElemento(int idx) {
         Texto unTexto = textos.get(idx);
         if (unTexto != null) {
@@ -30,4 +31,11 @@ public class GestorTextos {
             pasarAMayusculasElemento(i);
         }
     }
+
+    //TODO Minusculas
+
+    //TODO Oracion
+
+    //TODO Primera a mayuscula
+
 }

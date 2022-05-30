@@ -24,6 +24,12 @@ public class App {
         //paso a mayusculas todos
         GestorTextos.pasarAMayusculasTodos();
         muestraTodosLosTextos();
+
+        //TODO Minusculas
+
+        //TODO Oracion
+
+        //TODO Primera a mayuscula
     }
 
     private static void muestraTodosLosTextos() {
