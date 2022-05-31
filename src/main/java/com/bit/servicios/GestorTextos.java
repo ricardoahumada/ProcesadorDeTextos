@@ -5,15 +5,15 @@ import com.bit.persistence.TextosEnMemoria;
 
 public class GestorTextos {
 
-    private static TextosEnMemoria textos = new TextosEnMemoria();
+    private static TextosEnMemoria almacenDeTextos = new TextosEnMemoria();
 
-    public static TextosEnMemoria getTextos() {
-        return textos;
+    public static TextosEnMemoria getAlmacenDeTextos() {
+        return almacenDeTextos;
     }
 
     //Mayusculas
     public static void pasarAMayusculasElemento(int idx) {
-        Texto unTexto = textos.get(idx);
+        Texto unTexto = almacenDeTextos.get(idx);
         if (unTexto != null) {
             unTexto.toMayusculas();
         }
@@ -26,7 +26,7 @@ public class GestorTextos {
     }
 
     public static void pasarAMayusculasTodos() {
-        int size = textos.getSize();
+        int size = almacenDeTextos.getSize();
         for (int i = 0; i <= size; i++) {
             pasarAMayusculasElemento(i);
         }
@@ -37,5 +37,17 @@ public class GestorTextos {
     //TODO Oracion
 
     //TODO Primera a mayuscula
+    public static void pasarPrimeraMayusculasElemento(int idx) {
+        Texto unTexto = almacenDeTextos.get(idx);
+        if (unTexto != null) {
+            unTexto.toPrimerasMayusculas();
+        }
+    }
 
+    public static void pasarPrimeraMayusculasTodos() {
+        int size = almacenDeTextos.getSize();
+        for (int i = 0; i <= size; i++) {
+            pasarPrimeraMayusculasElemento(i);
+        }
+    }
 }

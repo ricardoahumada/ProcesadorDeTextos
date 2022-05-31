@@ -10,6 +10,7 @@ import java.util.List;
  */
 public class App {
     public static void main(String[] args) {
+
         System.out.println("INICIANDO PROCESADOR DE TEXTOS");
         muestraTodosLosTextos();
 
@@ -33,7 +34,7 @@ public class App {
     }
 
     private static void muestraTodosLosTextos() {
-        List<Texto> textos = GestorTextos.getTextos().geAll();
+        List<Texto> textos = GestorTextos.getAlmacenDeTextos().geAll();
         System.out.println("\n**** Mostrando textos.... *****");
         for (Texto unTexto : textos) {
             System.out.println(unTexto);
