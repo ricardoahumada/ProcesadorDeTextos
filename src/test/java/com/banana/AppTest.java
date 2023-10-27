@@ -1,4 +1,4 @@
-package com.bit;
+package com.banana;
 
 import static org.junit.Assert.assertTrue;
 

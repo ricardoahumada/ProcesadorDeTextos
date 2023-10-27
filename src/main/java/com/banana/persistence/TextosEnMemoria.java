@@ -1,6 +1,6 @@
-package com.bit.persistence;
+package com.banana.persistence;
 
-import com.bit.models.Texto;
+import com.banana.models.Texto;
 
 import java.util.ArrayList;
 import java.util.List;

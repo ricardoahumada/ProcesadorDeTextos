@@ -1,7 +1,7 @@
-package com.bit.servicios;
+package com.banana.servicios;
 
-import com.bit.models.Texto;
-import com.bit.persistence.TextosEnMemoria;
+import com.banana.models.Texto;
+import com.banana.persistence.TextosEnMemoria;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,7 +1,7 @@
-package com.bit;
+package com.banana;
 
-import com.bit.servicios.GestorTextos;
-import com.bit.models.Texto;
+import com.banana.servicios.GestorTextos;
+import com.banana.models.Texto;
 
 import java.util.List;
 

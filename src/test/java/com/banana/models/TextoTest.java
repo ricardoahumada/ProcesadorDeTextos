@@ -1,4 +1,4 @@
-package com.bit.models;
+package com.banana.models;
 
 import org.junit.Before;
 import org.junit.Test;
